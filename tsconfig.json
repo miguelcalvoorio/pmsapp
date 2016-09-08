@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "outDir": "./app"
+  },
+  "filesGlob": [
+    "./dev/**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "files": [
+    "./dev/app.component.ts",
+    "./dev/base/app-content.component.ts",
+    "./dev/base/authorization.router.ts",
+    "./dev/base/header.component.ts",
+    "./dev/base/home.component.ts",
+    "./dev/base/login.component.ts",
+    "./dev/boot.ts"
+  ]
+}

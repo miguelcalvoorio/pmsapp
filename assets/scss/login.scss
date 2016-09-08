@@ -1,0 +1,99 @@
+.pms-login-signin {
+  float: right;
+  width:50rem;
+  vertical-align: top;
+  margin-left: 40px;
+}
+
+.pms-login-welcome {
+  overflow: hidden;
+  width: auto;
+  vertical-align: top;
+}
+
+.pms-login-welcome-title {
+  font-size: 2.5rem;
+  line-height: 2.2rem;
+  font-family: "Segoe UI Semibold";
+  margin-bottom: 1rem;
+}
+
+.pms-login-welcome-subtitle {
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.pms-login-welcome-content {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.pms-signin-title {
+  font-size: 2.5rem;
+  line-height: 2.2rem;
+  font-family: "Segoe UI Semibold";
+  color: #ffffff;
+  //background-color: #180a5c;
+  background-color: #382e6b;
+  padding: 2rem;
+}
+
+.pms-login-signin form {
+  margin-top: 1.5rem;
+}
+
+.pms-signin-formelements {
+  display: table;
+  margin: auto;
+}
+
+.pms-signin-form-label {
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  width: 10rem;
+  padding-top: 1rem;
+}
+
+.pms-signin-form-input {
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  width: 25rem;
+  border-color: #6a747e;
+  border-style: solid;
+  border-width: 0 0 1.2px 0;
+}
+
+.pms-login-signin button {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+  background-color: #6a747e;
+  padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+}
+
+label.pms-signin-checkbox {
+  width: 20rem;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+input[type=checkbox].pms-signin-checkbox {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #6a747e;
+  color: #6a747e;
+}
+
+.pms-signin-formbuttons {
+  display: table;
+  margin-top: 2rem;
+  float: right;
+  text-align: right;
+}
