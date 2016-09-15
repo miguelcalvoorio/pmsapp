@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <title>Angular 2 QuickStart</title>
+    <title>FlexManager</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 
     <!-- Polyfill(s) for older browsers -->
@@ -24,7 +25,16 @@
 
   <body>
     <base href="/">
-    <my-app>Loading...</my-app>
+    <my-app>
+      <!-- BEGIN LOADING MESSAGE -->
+      <div class="Absolute-Center is-Responsive">
+        <div class="well text-center">
+          <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+          <p>Loading...</p>
+        </div>
+      </div>
+      <!-- END LOADING MESSAGE -->
+    </my-app>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

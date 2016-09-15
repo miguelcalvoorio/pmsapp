@@ -5,6 +5,7 @@ import { routing } from './app.routing';
 import { AppComponent }  from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainmenuComponent } from './components/mainmenu/mainmenu.component';
+import { LoginComponent } from './components/login/login.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { AboutComponent } from './components/about/about.component';
 
@@ -13,6 +14,7 @@ import { AboutComponent } from './components/about/about.component';
   declarations: [ AppComponent,
                   NavbarComponent,
                   MainmenuComponent,
+                  LoginComponent,
                   JumbotronComponent,
                   AboutComponent],
   bootstrap: [ AppComponent ]
