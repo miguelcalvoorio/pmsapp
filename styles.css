@@ -1,0 +1,2 @@
+/* Padding require to allow content not being overlaped by the navbar */
+body { padding-top: 70px; }
